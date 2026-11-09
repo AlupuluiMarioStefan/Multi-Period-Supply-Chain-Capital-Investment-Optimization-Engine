@@ -29,8 +29,8 @@ model (`distnet.scheduling`). The full formulation is in [docs/MODEL.md](docs/MO
 ## Installation
 
 ```bash
-git clone https://github.com/<YOUR-USER>/<YOUR-REPO>.git
-cd <YOUR-REPO>
+git clone https://github.com/AlupuluiMarioStefan/Multi-Period-Supply-Chain-Capital-Investment-Optimization-Engine.git
+cd Multi-Period-Supply-Chain-Capital-Investment-Optimization-Engine
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -e ".[dev]"
 ```
@@ -203,4 +203,4 @@ optimality for speed, or pass a different solver through the Python API.
 
 ## License
 
-[MIT](LICENSE). Replace the placeholder name in `LICENSE` with yours.
+[MIT](LICENSE). 
