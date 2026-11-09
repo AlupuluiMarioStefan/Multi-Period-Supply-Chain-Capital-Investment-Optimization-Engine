@@ -9,7 +9,7 @@ description = "Profit-maximising distribution network design (facility location,
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-dependencies = ["pulp>=2.7", "numpy"]
+dependencies = ["pulp>=2.7,<4"]
 keywords = ["operations-research", "optimization", "mixed-integer-programming", "pulp", "facility-location"]
 classifiers = [
     "Programming Language :: Python :: 3",
