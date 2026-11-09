@@ -7,7 +7,7 @@ name = "distnet"
 version = "1.0.0"
 description = "Profit-maximising distribution network design (facility location, carriers, construction scheduling) with PuLP"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = { text = "MIT" }
 dependencies = ["pulp>=2.7,<4"]
 keywords = ["operations-research", "optimization", "mixed-integer-programming", "pulp", "facility-location"]
