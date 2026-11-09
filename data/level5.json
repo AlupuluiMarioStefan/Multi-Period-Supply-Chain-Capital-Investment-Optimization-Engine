@@ -1,0 +1,266 @@
+{
+  "type": "scheduling",
+  "name": "Level 5 - seasonal demand and facility dependencies",
+  "budget": 17000,
+  "horizon": 15,
+  "crews": [
+    "K1",
+    "K2",
+    "K3"
+  ],
+  "facilities": {
+    "F1": {
+      "capacity": 70,
+      "opening_cost": 300,
+      "build_time": 3,
+      "shipping_cost": {
+        "S1": 6,
+        "S2": 3,
+        "S3": 2,
+        "S4": 6,
+        "S5": 8,
+        "S6": 8,
+        "S7": 7,
+        "S8": 4
+      }
+    },
+    "F2": {
+      "capacity": 100,
+      "opening_cost": 260,
+      "build_time": 2,
+      "shipping_cost": {
+        "S1": 5,
+        "S2": 6,
+        "S3": 9,
+        "S4": 2,
+        "S5": 5,
+        "S6": 9,
+        "S7": 2,
+        "S8": 3
+      }
+    },
+    "F3": {
+      "capacity": 160,
+      "opening_cost": 220,
+      "build_time": 1,
+      "shipping_cost": {
+        "S1": 2,
+        "S2": 6,
+        "S3": 5,
+        "S4": 2,
+        "S5": 5,
+        "S6": 4,
+        "S7": 2,
+        "S8": 2
+      }
+    },
+    "F4": {
+      "capacity": 80,
+      "opening_cost": 340,
+      "build_time": 4,
+      "shipping_cost": {
+        "S1": 2,
+        "S2": 7,
+        "S3": 4,
+        "S4": 5,
+        "S5": 7,
+        "S6": 7,
+        "S7": 6,
+        "S8": 7
+      }
+    },
+    "F5": {
+      "capacity": 150,
+      "opening_cost": 240,
+      "build_time": 2,
+      "shipping_cost": {
+        "S1": 2,
+        "S2": 6,
+        "S3": 2,
+        "S4": 6,
+        "S5": 6,
+        "S6": 2,
+        "S7": 2,
+        "S8": 2
+      }
+    },
+    "F6": {
+      "capacity": 60,
+      "opening_cost": 280,
+      "build_time": 2,
+      "shipping_cost": {
+        "S1": 7,
+        "S2": 5,
+        "S3": 3,
+        "S4": 3,
+        "S5": 3,
+        "S6": 8,
+        "S7": 2,
+        "S8": 6
+      }
+    },
+    "F7": {
+      "capacity": 110,
+      "opening_cost": 300,
+      "build_time": 3,
+      "shipping_cost": {
+        "S1": 6,
+        "S2": 7,
+        "S3": 3,
+        "S4": 7,
+        "S5": 6,
+        "S6": 6,
+        "S7": 9,
+        "S8": 5
+      }
+    },
+    "F8": {
+      "capacity": 170,
+      "opening_cost": 200,
+      "build_time": 1,
+      "shipping_cost": {
+        "S1": 3,
+        "S2": 2,
+        "S3": 2,
+        "S4": 2,
+        "S5": 6,
+        "S6": 2,
+        "S7": 4,
+        "S8": 2
+      }
+    },
+    "F9": {
+      "capacity": 90,
+      "opening_cost": 250,
+      "build_time": 2,
+      "shipping_cost": {
+        "S1": 3,
+        "S2": 8,
+        "S3": 4,
+        "S4": 9,
+        "S5": 2,
+        "S6": 2,
+        "S7": 8,
+        "S8": 8
+      }
+    },
+    "F10": {
+      "capacity": 120,
+      "opening_cost": 320,
+      "build_time": 1,
+      "shipping_cost": {
+        "S1": 2,
+        "S2": 4,
+        "S3": 5,
+        "S4": 2,
+        "S5": 5,
+        "S6": 2,
+        "S7": 9,
+        "S8": 3
+      }
+    },
+    "F11": {
+      "capacity": 130,
+      "opening_cost": 360,
+      "build_time": 3,
+      "shipping_cost": {
+        "S1": 7,
+        "S2": 2,
+        "S3": 8,
+        "S4": 9,
+        "S5": 5,
+        "S6": 2,
+        "S7": 3,
+        "S8": 6
+      }
+    },
+    "F12": {
+      "capacity": 100,
+      "opening_cost": 280,
+      "build_time": 2,
+      "shipping_cost": {
+        "S1": 9,
+        "S2": 5,
+        "S3": 9,
+        "S4": 6,
+        "S5": 5,
+        "S6": 3,
+        "S7": 3,
+        "S8": 4
+      }
+    }
+  },
+  "seasonal_factors": [
+    0.6,
+    0.8,
+    1.3,
+    1.5,
+    0.6,
+    0.8,
+    1.3,
+    1.5,
+    0.6,
+    0.8,
+    1.3,
+    1.5,
+    0.6,
+    0.8,
+    1.3
+  ],
+  "service_areas": {
+    "S1": {
+      "demand": 90,
+      "price": 15
+    },
+    "S2": {
+      "demand": 130,
+      "price": 11
+    },
+    "S3": {
+      "demand": 70,
+      "price": 19
+    },
+    "S4": {
+      "demand": 110,
+      "price": 13
+    },
+    "S5": {
+      "demand": 150,
+      "price": 9
+    },
+    "S6": {
+      "demand": 80,
+      "price": 21
+    },
+    "S7": {
+      "demand": 120,
+      "price": 17
+    },
+    "S8": {
+      "demand": 100,
+      "price": 12
+    }
+  },
+  "dependencies": [
+    [
+      "F1",
+      "F2"
+    ],
+    [
+      "F2",
+      "F3"
+    ],
+    [
+      "F4",
+      "F5"
+    ],
+    [
+      "F6",
+      "F7"
+    ],
+    [
+      "F7",
+      "F8"
+    ]
+  ]
+}

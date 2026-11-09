@@ -1,0 +1,111 @@
+{
+  "type": "static",
+  "name": "Level 1 - basic facility location",
+  "budget": 10000,
+  "facilities": {
+    "F1": {
+      "capacity": 1000,
+      "opening_cost": 500,
+      "shipping_cost": {
+        "S1": 5,
+        "S2": 3,
+        "S3": 2,
+        "S4": 2,
+        "S5": 10,
+        "S6": 8,
+        "S7": 4,
+        "S8": 6
+      }
+    },
+    "F2": {
+      "capacity": 300,
+      "opening_cost": 100,
+      "shipping_cost": {
+        "S1": 5,
+        "S2": 3,
+        "S3": 2,
+        "S4": 2,
+        "S5": 10,
+        "S6": 8,
+        "S7": 4,
+        "S8": 6
+      }
+    },
+    "F3": {
+      "capacity": 900,
+      "opening_cost": 500,
+      "shipping_cost": {
+        "S1": 5,
+        "S2": 3,
+        "S3": 2,
+        "S4": 2,
+        "S5": 10,
+        "S6": 8,
+        "S7": 4,
+        "S8": 6
+      }
+    },
+    "F4": {
+      "capacity": 1500,
+      "opening_cost": 650,
+      "shipping_cost": {
+        "S1": 5,
+        "S2": 3,
+        "S3": 2,
+        "S4": 2,
+        "S5": 10,
+        "S6": 8,
+        "S7": 4,
+        "S8": 6
+      }
+    },
+    "F5": {
+      "capacity": 250,
+      "opening_cost": 200,
+      "shipping_cost": {
+        "S1": 5,
+        "S2": 3,
+        "S3": 2,
+        "S4": 2,
+        "S5": 10,
+        "S6": 8,
+        "S7": 4,
+        "S8": 6
+      }
+    }
+  },
+  "service_areas": {
+    "S1": {
+      "demand": 250,
+      "price": 15
+    },
+    "S2": {
+      "demand": 400,
+      "price": 10
+    },
+    "S3": {
+      "demand": 300,
+      "price": 12
+    },
+    "S4": {
+      "demand": 200,
+      "price": 11
+    },
+    "S5": {
+      "demand": 700,
+      "price": 8
+    },
+    "S6": {
+      "demand": 400,
+      "price": 15
+    },
+    "S7": {
+      "demand": 300,
+      "price": 18
+    },
+    "S8": {
+      "demand": 500,
+      "price": 17
+    }
+  }
+}

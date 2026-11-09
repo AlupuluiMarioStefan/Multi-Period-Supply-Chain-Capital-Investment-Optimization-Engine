@@ -1,0 +1,104 @@
+{
+  "type": "scheduling",
+  "name": "Level 4 - construction scheduling with crews",
+  "budget": 7500,
+  "horizon": 10,
+  "crews": [
+    "K1",
+    "K2"
+  ],
+  "facilities": {
+    "F1": {
+      "capacity": 120,
+      "opening_cost": 400,
+      "build_time": 3,
+      "shipping_cost": {
+        "S1": 3,
+        "S2": 4,
+        "S3": 2,
+        "S4": 7,
+        "S5": 5,
+        "S6": 9
+      }
+    },
+    "F2": {
+      "capacity": 60,
+      "opening_cost": 150,
+      "build_time": 1,
+      "shipping_cost": {
+        "S1": 6,
+        "S2": 3,
+        "S3": 5,
+        "S4": 4,
+        "S5": 7,
+        "S6": 6
+      }
+    },
+    "F3": {
+      "capacity": 150,
+      "opening_cost": 600,
+      "build_time": 4,
+      "shipping_cost": {
+        "S1": 8,
+        "S2": 6,
+        "S3": 7,
+        "S4": 5,
+        "S5": 3,
+        "S6": 4
+      }
+    },
+    "F4": {
+      "capacity": 90,
+      "opening_cost": 300,
+      "build_time": 2,
+      "shipping_cost": {
+        "S1": 2,
+        "S2": 7,
+        "S3": 4,
+        "S4": 9,
+        "S5": 6,
+        "S6": 8
+      }
+    },
+    "F5": {
+      "capacity": 50,
+      "opening_cost": 120,
+      "build_time": 1,
+      "shipping_cost": {
+        "S1": 7,
+        "S2": 5,
+        "S3": 6,
+        "S4": 3,
+        "S5": 8,
+        "S6": 5
+      }
+    }
+  },
+  "service_areas": {
+    "S1": {
+      "demand": 60,
+      "price": 15
+    },
+    "S2": {
+      "demand": 80,
+      "price": 10
+    },
+    "S3": {
+      "demand": 50,
+      "price": 12
+    },
+    "S4": {
+      "demand": 70,
+      "price": 18
+    },
+    "S5": {
+      "demand": 90,
+      "price": 8
+    },
+    "S6": {
+      "demand": 40,
+      "price": 20
+    }
+  },
+  "dependencies": []
+}
